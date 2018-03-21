@@ -1,0 +1,16 @@
+{
+  "name": "Cookie",
+  "description": "Base Level Extension",
+  "version" : "1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "<all_urls>",
+    "cookies",
+    "webNavigation",
+    "*://*.instagram.com/",
+    "*://*.flacless.com/"
+  ],
+  "background": {
+    "scripts": ["node_modules/axios/dist/axios.js", "main.js"]
+  }
+}
